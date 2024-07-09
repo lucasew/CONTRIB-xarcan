@@ -1040,6 +1040,7 @@ FatalError(const char *f, ...)
 void
 VErrorF(const char *f, va_list args)
 {
+	return;
     if (OsVendorVErrorFProc)
         OsVendorVErrorFProc(f, args);
     else

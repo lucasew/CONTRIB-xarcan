@@ -68,7 +68,7 @@ cmdCreateProxyWindow(
                        struct arcan_shmif_cont *con,
                        int x, int y, int w, int h, unsigned long vid, bool out);
 #ifdef __OpenBSD__
-#include "../../dmx/input/atKeynames.h"
+#include "atKeynames.h"
 #include "bsd_KbdMap.c"
 
 static void enqueueKeyboard(uint16_t scancode, int active)
